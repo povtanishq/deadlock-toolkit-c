@@ -1,0 +1,15 @@
+Processes: 3
+Resources: 3
+
+Allocation:
+0 2 1
+2 0 0
+3 0 3
+
+Max:
+1 2 1
+2 1 0
+3 0 3
+
+Available:
+0 0 0
