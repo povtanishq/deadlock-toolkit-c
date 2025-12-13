@@ -1,11 +1,22 @@
-# Deadlock Toolkit in C
+Deadlock Toolkit in C
 
-A complete toolkit for deadlock detection, avoidance, and recovery implemented in C.
+This project demonstrates deadlock concepts using C programs.
+It is designed for learning Operating System deadlock handling.
 
-## Features
-- Banker's Algorithm (Safe State + Resource Request)
-- Resource Allocation Graph (RAG) with cycle detection
-- Deadlock recovery with victim selection
-- Modular code structure
+Progress Log:
+Day 1: Repository setup
+Day 2: Core implementation of deadlock algorithms
+Day 3: Added test cases
+Day 4: Documentation and code cleanup
 
-## Compile
+Features:
+- Banker's Algorithm
+- Resource Allocation Graph (RAG)
+- Deadlock detection
+- Modular C code
+
+How to Run:
+Compile the required C file using gcc and execute it.
+Example:
+gcc bankers.c -o bankers
+./bankers
